@@ -12,49 +12,52 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading>Who is he?</template>
 
-    Vue’s
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    Masamichi Kanakuboは日本在住のソフトウェアエンジニアです.
+    <ul>
+      <li>年齢: 19歳(2004年生まれ)</li>
+      <li>拠点: 滋賀, 大阪</li>
+      <li>学歴: 立命館大学 情報理工学部 情報理工学科 (在学)</li>
+      <li>ポジション: カスタマーエンジニア@
+        <a href="https://plaid.co.jp/">Plaid, inc</a>
+      </li>
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
-    <template #heading>Tooling</template>
+    <template #heading>Tech Stack</template>
 
-    This project is served and bundled with
-    <a href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener">Vite</a>. The
-    recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VSCode</a> +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank" rel="noopener">Volar</a>. If
-    you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a> and
-    <a href="https://on.cypress.io/component" target="_blank" rel="noopener"
-      >Cypress Component Testing</a
-    >.
-
+    Masamichi Kanakuboはフルスタックエンジニアです. 彼は以下の技術のプロフェッショナルです.
     <br />
+    バックエンド
+    <ul>
+      <li>Python</li>: Django, FastAPI
+    </ul>
+    フロントエンド
+    <ul>
+      <li>JavaScript, TypeScript</li>: Vue3
+    </ul>
+    詳細な技術スタックは,
+    <a href="https://github.com/MasamichiKanakubo">こちら</a>
+    から確認できます.
+     <br />
 
-    More instructions are available in <code>README.md</code>.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
-    <template #heading>Ecosystem</template>
-
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener">Vue Router</a>,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener">Vue Test Utils</a>, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener">Vue Dev Tools</a>. If
-    you need more resources, we suggest paying
-    <a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">Awesome Vue</a>
-    a visit.
+    <template #heading> Product</template>
+    <ul>
+      <li>選曲アプリ「
+        <a href="https://mood-hub-watnow.vercel.app/">MoodHub</a>
+        」</li>Stack: FastAPI, Next.js, Three.js, Chakra UI, Firebase, MongoDB
+    </ul>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -63,26 +66,27 @@ import SupportIcon from './icons/IconSupport.vue'
     </template>
     <template #heading>Community</template>
 
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a>, our official
-    Discord server, or
-    <a href="https://stackoverflow.com/questions/tagged/vue.js" target="_blank" rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener">our mailing list</a> and follow
-    the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener">@vuejs</a>
-    twitter account for latest news in the Vue world.
+    Masamichi Kanakuboは
+    <a href="https://twitter.com/watnows">関西学生IT団体watnow</a>
+    に所属しています.
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
       <SupportIcon />
     </template>
-    <template #heading>Support Vue</template>
-
-    As an independent project, Vue relies on community backing for its sustainability. You can help
-    us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+    <template #heading>Contact</template>
+    お仕事のご依頼やご相談は次の連絡先までお願いします.
+    <ul>
+      <li>大学: 
+        <a href='is0719sf@ed.ritsumei.ac.jp'>is0719sf@ed.ritsumei.ac.jp</a>
+      </li>
+      <li>個人:
+        <a href="renlijinjiubao808@gmail.com">renlijinjiubao808@gmail.com</a>
+      </li>
+      <li>Twitter:
+        <a href="https://twitter.com/ma_kanakubo">@ma_kanakubo</a>
+      </li>
+    </ul>
   </WelcomeItem>
 </template>
